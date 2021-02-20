@@ -1,0 +1,114 @@
+@media(max-width:1050px){
+    .section-container-cuadros{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    } 
+    .section-container-characters{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .form-container{
+        /* top:23%; */
+    /* bottom: ; */
+    right:30%;
+    }
+  
+}
+@media(max-width:730px){
+    .section-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .form-container{
+        /* top:23%; */
+    /* bottom: ; */
+    right:25%;
+    }
+}
+
+@media(max-width:560px){
+    .section-container-cuadros{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    } 
+    .form-container{
+        /* top:23%; */
+    /* bottom: ; */
+    right:15%;
+    }
+}
+@media(max-width:500px){
+    .producto{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .sombrita{
+        position: relative;
+        top:-190px;
+        /* height:100px; */
+       
+       }
+       .form-container{
+        /* top:23%; */
+    /* bottom: ; */
+    right:10%;
+    }
+}
+@media(max-width:413px){
+    .botones-principales{
+        /* border:1px solid red; */
+        display:none;
+       border:1px solid chartreuse;
+       background-color: white;
+       min-width:100vw;
+       height: 200px;
+        position:absolute;
+        top:40px;
+        right:0px;
+        box-sizing: border-box;
+        grid-template-rows: 1fr 1fr  ;
+        grid-template-columns: 1fr;
+        
+        /* transition: transform 2s ease; */
+        
+        
+        
+        
+    }
+    .botones-principales a{
+        color:black;
+        box-sizing: border-box;
+        margin:20px;
+        font-size: 20px;
+        background-color: #ffffff;
+        z-index: 100;
+
+    }
+    
+    .display-active{
+        display:grid;
+        transform: translate3d(0%,-550%, 0);
+        transform: translate3d(0%,10%, 0);
+       
+
+    }
+    
+    .icon-menu{
+        display:block;
+    }
+    .frase h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:275px){
+    .frase h2{
+        font-size: 20px;
+        margin-top:20px;
+    margin-bottom: 20px;
+    }
+    .form-container{
+        /* top:center; */
+    /* bottom: ; */
+    right:17%;
+    }
+}
